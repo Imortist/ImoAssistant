@@ -7,12 +7,12 @@ import java.util.List;
 
 class CSVData {
 
-     private static String FILE_PATH = "D:\\Coding\\Java\\Projects\\ImoAssistant\\tradingTable.csv";
-     private List csvData;
+    private List csvData;
 
-     List loadCSVData(String filePath) throws IOException {
+     void loadCSVData() throws IOException {
+         String FILE_PATH = "D:\\Coding\\Java\\Projects\\ImoAssistant\\tradingTable.csv";
          CSVReader reader = new CSVReader(new FileReader(FILE_PATH));
-         return csvData = reader.readAll();
+         csvData = reader.readAll();
      }
 
      List getCSVData(){

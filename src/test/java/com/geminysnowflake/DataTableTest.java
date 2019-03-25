@@ -9,9 +9,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class DataTableTest {
 
     @Test
-    public void dataLoadedSuccessfully() throws IOException {
+     void dataLoadedSuccessfully() throws IOException {
         CSVData dataTable = new CSVData();
-        dataTable.loadCSVData("loadCSVTable(\"D:\\\\Coding\\\\Java\\\\Projects\\\\ImoAssistant\\\\tradingTable.csv\")");
+        dataTable.loadCSVData();
         assertNotNull(dataTable.getCSVData());
     }
 
