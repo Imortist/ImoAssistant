@@ -1,19 +1,19 @@
 package com.geminysnowflake;
 import java.util.ArrayList;
 
-public class TradingLocation {
+ class TradingLocation {
     private String name;
     private ArrayList<Goods> stationGoods = new ArrayList<>();
 
-    public TradingLocation(String tradingLocationName) {
+     TradingLocation(String tradingLocationName) {
         name = tradingLocationName;
     }
 
-    public void addItem(String nameOfGoods){
+     void addItem(String nameOfGoods){
         stationGoods.add(new Goods(nameOfGoods));
     }
 
-    public Goods getGoodsByPosition(int position) {
+     Goods getGoodsByPosition(int position) {
         return stationGoods.get(position);
     }
 

@@ -1,6 +1,6 @@
 package com.geminysnowflake;
 
-public class Goods {
+ class Goods {
 
     private String name;
     private float priceBuying;
@@ -20,17 +20,17 @@ public class Goods {
         this.priceSelling = priceSelling;
     }
 
-    public void setPrices(float buyingPrice, float sellingPrice){
+     void setPrices(float buyingPrice, float sellingPrice){
         setPriceBuying(buyingPrice);
         setPriceSelling(sellingPrice);
     }
 
 
-    public String getName() {
+     String getName() {
         return name;
     }
 
-    public float getPriceBuying() {
+     float getPriceBuying() {
         return priceBuying;
     }
 

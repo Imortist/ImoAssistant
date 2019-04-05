@@ -1,0 +1,39 @@
+Port Olisar
+GrimHEX
+ArcCorp Mining Area 157
+Benson Mining Outpost
+Deakis Research Outpost
+Jumptown
+Kudre Ore
+ArcCorp Mining Area 141
+Bountiful Harvest Hydroponics
+Shubin Mining Facility SCD-1
+Tram & Mayers Mining
+Gallete Family Farms
+Terra Mills HydroFarm
+Hickes Research Outpost
+CRU-L1
+CRU-L4
+CRU-L5
+Levski
+Lorville
+CBD
+HDMS-Edmond
+HDMS-Hadley
+HDMS-Oparei
+HDMS-Pinewood
+HDMS-Stanhope
+HDMS-Thedus
+HDMS-Anderson
+HDMS-Norgaard
+HDMS-Bezdek
+HDMS-lathan
+HDMS-Ryder
+HDMS-Woodruf
+HDMS-Hahn
+HDMS-Perlman
+HUR-L1
+HUR-L2
+HUR-L3
+HUR-L4
+HUR-L5

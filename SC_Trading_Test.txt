@@ -1,0 +1,3 @@
+Port Olisar - Agricium(0,25.6); Agricultural Supplies(0,0); Altruciatoxine(0,0);
+GrimHex - Agricium(0,25.6); Agricultural Supplies(0,0); Altruciatoxine(0,11.64); Medical Supplies();
+Lyra - Chlorine; Beryl; Corundum; Gold; Iodine;
