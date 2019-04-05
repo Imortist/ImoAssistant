@@ -31,7 +31,7 @@ class DataParser {
                 result.append(line.substring(line.indexOf('-')).substring(2));
             }
         }
-        return  result.toString().replaceAll("[\\d,\\\\(.*)]","");
+        return  result.toString();
     }
 
      private StringBuilder getLinesFromFile() throws IOException {

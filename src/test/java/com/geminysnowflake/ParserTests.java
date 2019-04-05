@@ -21,11 +21,11 @@ class ParserTests {
 
     @Test
      void getPortOlisarGoods() throws IOException {
-        assertEquals("Agricium; Agricultural Supplies; Altruciatoxine;", dp.getStationGoods("Port Olisar"));
+        assertEquals("Agricium(0,25.6); Agricultural Supplies(0,0); Altruciatoxine(0,0);", dp.getStationGoods("Port Olisar"));
     }
     @Test
     void getGrimHexGoods() throws IOException {
-        assertEquals("Agricium; Agricultural Supplies; Altruciatoxine; Medical Supplies;", dp.getStationGoods("GrimHex"));
+        assertEquals("Agricium(0,25.6); Agricultural Supplies(0,0); Altruciatoxine(0,11.64); Medical Supplies();", dp.getStationGoods("GrimHex"));
     }
 
     @Test
